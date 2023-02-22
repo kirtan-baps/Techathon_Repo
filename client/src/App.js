@@ -63,7 +63,6 @@ function BasicExample() {
 
 
   }, []);
-  // console.log(account);
   return (
 
     <div className="mainz">
@@ -71,7 +70,6 @@ function BasicExample() {
       <div className="content">
         <>
           <Router>
-            {/* <Navbar bg="dark" expand="lg" variant="dark"> */}
             <Navbar className="nav justify-content-center" expand="lg">
               <Container>
                 <Nav.Link as={Link} to="/"><Navbar.Brand ><img src={logo} className="logo"></img></Navbar.Brand></Nav.Link>
